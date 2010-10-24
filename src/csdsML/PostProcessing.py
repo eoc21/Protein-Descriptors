@@ -11,8 +11,4 @@ formattedOut = open(sys.argv[2],'w')
 data = datafile.readlines()
 for i in range(len(data)):
     s = str(data[i]).split(",")
-   # s1 = str(s[1:])
-   # s1 =s1.replace('[','')
-   # s2 = s1.replace(']','')
-   # s3 = s2.replace('\'','')
     formattedOut.write(str(s[1:]))

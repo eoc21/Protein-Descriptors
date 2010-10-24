@@ -90,7 +90,6 @@ for file in files:
     if file !='.pdb':
         pdbFile = open(path+"/"+file,'r')
         USRDescriptorVector = getUSRDescriptor(path+"/"+file)
-#        print "USR Descriptor vector"
         print USRDescriptorVector
         pdb = pdbFile.readlines()
         pdbIdentification = str(file).replace(".pdb", "").replace("'", "")
@@ -124,7 +123,6 @@ for file in files:
                 mdDescriptor = str(mdDescriptors[j].descriptors).split(",")
                 mdDescriptor = stringFormatting(mdDescriptor)
                 outputString = aminoAcidComposition+","+dipeptideComposition+","+moreauBrotoAutoCorrelation+","+moranAutoCorrelation+","+gearyAutoCorrelation+","+"PDZ4"+"\n"
-         #       outputString = aminoAcidComposition+","+dipeptideComposition+","+moreauBrotoAutoCorrelation+","+moranAutoCorrelation+","+gearyAutoCorrelation+","+str(mdDescriptor)+",PDZ4"+"\n"
         val = outputString.split(",")
         labels =[]
         for i in range(len(val)):

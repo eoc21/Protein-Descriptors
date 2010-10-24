@@ -1,6 +1,6 @@
 '''
 Created on Nov 28, 2009
-Module to read protein databank files
+Module to calculate protein descriptors.
 @author: ed
 '''
 from math import *
@@ -343,7 +343,6 @@ class ProteinDescriptors():
         scaledResidueASAInTripeptideDictionary = self.ZScale(self.residueASAInTripeptideDictionary)
         scaledResidueVolumeDictionary = self.ZScale(self.residueVolumeDictionary)
         scaledStericParameterDictionary = self.ZScale(self.stericParameterDictionary)
-        #Calculate average property along the sequence for each property value
         
         def calculateAverageProperty(dictionary):
             val = 0

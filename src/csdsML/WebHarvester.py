@@ -19,12 +19,10 @@ for i in range(len(otherProts)):
         proteinIds = anotherProtein.split(';')
         pdzIds.append(str(proteinIds[0]).strip())
         result =  str(proteinIds[0]).strip()+";"+str(proteinIds[1]).strip()+";"+str(proteinIds[2]).strip()+"\n"
-   #     pdzActives.write(result)
     elif ';' in anotherProtein and 'PDZ' not in anotherProtein and anotherProtein !="":
         proteinIdsX =  anotherProtein.split(';')
         notPDZIds.append(str(proteinIdsX[0]).strip())
         result = str(proteinIdsX[0]).strip()+";"+str(proteinIdsX[1]).strip()+";"+str(proteinIdsX[2]).strip()+"\n"
-  #      pdzInactives.write(result)
 
 
 random.shuffle(notPDZIds)

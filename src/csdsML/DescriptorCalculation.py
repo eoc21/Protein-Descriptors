@@ -79,10 +79,7 @@ for file in files:
         except(ValueError,IndexError):
             errorCounter=1
             errors.append(file)
-            #errorString = file+"\n"
-            #errorFile.write(errorString)
             print "error in: "+file
- #       print USRDescriptorVector
         pdb = pdbFile.readlines()
         pdbIdentification = str(file).replace(".pdb", "").replace("'", "")
         protein = Protein()

@@ -7,7 +7,8 @@ moranAutoCorrelation & gearyAutoCorrelation.
 @author: ed
 '''
 import os, sys
-from PDBReader import *
+from Descriptors import *
+from ProteinUtilities import *
 from USRDescriptor import *
 
 class MDDescriptor():

@@ -4,7 +4,8 @@ Central  class to  calculate all  descriptors
 @author: ed
 '''
 import os, sys
-from PDBReader import *
+from Descriptor import *
+from ProteinUtilities import *
 from USRDescriptor import *
 def stringFormatting(aList):
     unformatted = str(aList)

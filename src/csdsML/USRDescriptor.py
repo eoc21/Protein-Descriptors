@@ -4,7 +4,7 @@ Descriptor calculates Ultrafast shape descriptors for proteins.
 @author: ed
 '''
 import os, sys, math, operator
-from PDBReader import *
+from ProteinUtilities import *
 
 class Point():
     def __init__(self,x=0,y=0,z=0):

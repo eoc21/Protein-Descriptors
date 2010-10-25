@@ -3,7 +3,6 @@ Created on Nov 28, 2009
 Script to calculate theoretical protein descriptors-
 Amino acid composition, dipeptide composition,moreauBrotoAutoCorrelation,
 moranAutoCorrelation & gearyAutoCorrelation.
-2pzd or 2pdz? for one of the proteins.
 @author: ed
 '''
 import os, sys

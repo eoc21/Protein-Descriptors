@@ -7,8 +7,6 @@ git clone git@github.com:eoc21/Protein-Descriptors.git NameOfLocalFolder
 == Main Classes ==
 *TestMain.py -> this runs all the descriptor calculations on a set of proteins.
 
-*DescriptorCalculation.py -> runs descriptor calculation and pipes out erroneous protein files.
-
 *Descriptors.py -> list of all the descriptors used.
 
 *ProteinUtilities.py -> contains classes for data objects such as proteins and atoms.
